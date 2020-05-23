@@ -1,0 +1,33 @@
+{
+  "name": "lehaih5",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A starter project for AngularJS",
+  "repository": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "child_process": "^1.0.2",
+    "file-system": "^2.2.2",
+    "fs": "0.0.2",
+    "gulp": "4.0.2",
+    "gulp-babel": "6",
+    "gulp-concat": "2.6.1",
+    "gulp-jshint": "2.1.0",
+    "gulp-minify-css": "1.2.4",
+    "gulp-minify-html": "1.0.6",
+    "gulp-ng-html2js": "^0.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "7.1.2",
+    "gulp-rev-collector": "^1.0.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "3.1.6",
+    "gulp-util": "3.0.8"
+  },
+  "scripts": {
+    "prestart": "yarn",
+    "start": "http-server -a 0.0.0.0 -p 8001 -c-1"
+  }
+}
